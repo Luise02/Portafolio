@@ -1,0 +1,85 @@
+/* Estilos base */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+    scroll-behavior: smooth;
+  }
+  
+  header {
+    background-color: #1e1e2f;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Esto la hace redonda */
+    display: block;
+    margin: 1rem auto;
+    object-fit: cover;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }  
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  section {
+    padding: 2rem 1rem;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h2 {
+    border-bottom: 2px solid #1e1e2f;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Tarjetas de proyectos */
+  .project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+  
+  .project-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.03);
+  }
+  
+  footer {
+    background-color: #1e1e2f;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
